@@ -1,0 +1,128 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Peter Kitonga
+Updated: June 2015
+Notes:	 Hand coded for Internship vetting process
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body {
+ background-color: #eceff0;
+}
+
+.input {
+  width: 100%;
+}
+
+.items li, .item-add .input {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  padding: 15px 0;
+}
+
+.items {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+#submitbtn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 3px 3px 0 #ddd;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body, input {
+  font: 1em "Open Sans", sans-serif;
+  color: #363639;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed #363639;
+}
+
+.list {
+  background-color: #fff;
+  margin: 100px auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.list .header {
+  font-family: "Shadows Into Light Two", cursive;
+  margin: 0 0 10px 0;
+}
+
+.items  li:hover .done-button {
+  opacity: 1;
+}
+
+.items .item.done {
+  text-decoration: line-through;
+}
+
+.items .done-button {
+  display: inline-block;
+  font-size: 1.0em;
+  background-color: #d9dfe1;
+  color: #363639;
+  padding: 3px 6px;
+  border: 0;
+  opacity: 0.4;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

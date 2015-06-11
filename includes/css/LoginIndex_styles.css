@@ -1,0 +1,104 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Peter Kitonga
+Updated: June 2015
+Notes:	 Hand coded for Internship vetting process
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+  
+
+form {
+  background-color: #fff;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+}
+
+#header_well {
+  background-color: #04edbb;
+}
+
+#header_well h1 {
+  color: #FFFFFF;
+}
+
+#header_well i {
+  font: 1.5em "Shadows Into Light Two", cursive;
+  color: #FFFFFF;
+}
+
+#form_well {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#submitbtn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 3px 3px 0 #ddd;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body, input {
+  font: 1em "Open Sans", sans-serif;
+  color: #363639;
+}
+
+.control-label {
+  font: 1.5em "Shadows Into Light Two", cursive;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
