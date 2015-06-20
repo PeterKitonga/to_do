@@ -9,7 +9,7 @@
 		  <div class="alert alert-error">
 			  <?php require "libs/login.php";?>
 		  </div>
-		    <form class="form-horizontal" action="" method="post">   
+		    <form class="form-horizontal" action="" method="post" id="login_form">   
 			     <div class="form-group">
 				  <label class="col-lg-2 control-label" for="inputName">UserName</label>
 				  <div class="col-lg-10">
