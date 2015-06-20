@@ -1,8 +1,8 @@
 <?php
   if (isset($_POST['Password'],$_POST['UserName']))
   {
-	  $UserName =($_POST['UserName']);
-	  $Password =($_POST['Password']);
+	  $UserName = clean_data($_POST['UserName']);
+	  $Password = clean_data($_POST['Password']);
 	  if(!empty($UserName) && !empty($Password))
 	  {
 		if($new_connection = new_connection())
