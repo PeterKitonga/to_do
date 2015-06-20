@@ -80,6 +80,10 @@ body, input {
   color: #363639;
 }
 
+.control-label {
+  font: 1.5em "Shadows Into Light Two", cursive;
+}
+
 a {
   text-decoration: none;
   border-bottom: 1px dashed #363639;
